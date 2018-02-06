@@ -21,6 +21,7 @@ Pour cela, on utilisera:
 ● nodeJ
 ● Express 4
 ● les flux suivants:
+
 a. http://www.jeuxvideo.com/rss/rss.xml
 
 b. http://www.jeuxvideo.com/rss/rss-news.xml
