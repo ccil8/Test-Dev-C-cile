@@ -21,15 +21,23 @@ Pour cela, on utilisera:
 ● Express 4
 ● les flux suivants:
 a. http://www.jeuxvideo.com/rss/rss.xml
+
 b. http://www.jeuxvideo.com/rss/rss-news.xml
+
 c. http://www.jeuxvideo.com/rss/itunes-chroniques.xml
+
 d. https://news.google.com/news?ned=fr&num=100&output=rss&q=(%22
 starwars%22
+
 e. http://www.jeuxvideo.com/rss/rss-videos.xml
+
 f. http://www.numerama.com/feed/
+
 g. https://news.ycombinator.com/rss
+
 
 Vous aurez besoin des packages suivants :
 ● https://www.npmjs.com/package/feedparser / Pour lire les flux RSS.
+
 ● https://www.npmjs.com/package/request / Pour envoyer les articles entre le
 worker et le service.
