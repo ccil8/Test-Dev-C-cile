@@ -4,12 +4,14 @@ L’objectif de cet exercice est de développer un “Worker” et un “service
 qui vont récupérer les articles en provenance de divers flux RSS, les normaliser
 (img, vidéo, titre, auteur, nom de la source, url, etc.) et les insérer dans une base de
 données.
+
 Quelques indications pour réaliser le test :
 ● Le worker va récupérer en boucle les derniers articles sur les flux RSS pour
 les envoyer au service.
 ● Le service API va recevoir les articles via un route “POST”. Il va normaliser
 les résultats, c’est à dire faire en sort que les propriétés de l'objet soit
 identiques peut importe la provenance du flux RSS.
+
 Ces nouveaux articles normalisés seront seront sauvegardées dans une BDD
 de votre choix.
 ● Ce programme devra être capable de supporter jusqu’à 10k Rss à scrapper le
@@ -26,6 +28,7 @@ starwars%22
 e. http://www.jeuxvideo.com/rss/rss-videos.xml
 f. http://www.numerama.com/feed/
 g. https://news.ycombinator.com/rss
+
 Vous aurez besoin des packages suivants :
 ● https://www.npmjs.com/package/feedparser / Pour lire les flux RSS.
 ● https://www.npmjs.com/package/request / Pour envoyer les articles entre le
