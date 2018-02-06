@@ -1,5 +1,6 @@
 # Test-Dev-Cecile
 Crawler API
+
 L’objectif de cet exercice est de développer un “Worker” et un “service” en NodeJs
 qui vont récupérer les articles en provenance de divers flux RSS, les normaliser
 (img, vidéo, titre, auteur, nom de la source, url, etc.) et les insérer dans une base de
@@ -37,6 +38,7 @@ g. https://news.ycombinator.com/rss
 
 
 Vous aurez besoin des packages suivants :
+
 ● https://www.npmjs.com/package/feedparser / Pour lire les flux RSS.
 
 ● https://www.npmjs.com/package/request / Pour envoyer les articles entre le
